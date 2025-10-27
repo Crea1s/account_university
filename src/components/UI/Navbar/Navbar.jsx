@@ -15,9 +15,8 @@ export default function Navbar() {
     <div className="navbar_out">
     <div  className="navbar">
       <div className="navbar__links">
-        <h1 className="navigation_link"><Link to="/uunit-project/general" >Главная</Link></h1>
+        <h1 className="navigation_link"><Link to="/uunit-project/general" >Личный кабинет студента</Link></h1>
         <h1 className="navigation_link"><Link to="/uunit-project/about" >О нас</Link></h1>
-        <h1 className="navigation_link"><Link to="/uunit-project/account" >Личный кабинет</Link></h1>
       </div>
       <h1 className="navigation_logout"><MyButton onClick={logout}>Выйти</MyButton></h1>
     </div>

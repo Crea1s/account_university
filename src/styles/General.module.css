@@ -1,0 +1,20 @@
+.conteiners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    margin-top: 100px;
+    gap: 100px;
+    color: #000;
+}
+.conteiners a {
+    color: #000;
+    text-decoration: none;
+}
+.account {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;
+    gap: 100px;
+}
+.general {
+    margin-top: 10px;
+}
