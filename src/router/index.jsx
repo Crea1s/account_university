@@ -9,8 +9,10 @@ import Dormitory from "../pages/Dormitory";
 import Events from "../pages/Events";
 import Sections from "../pages/Sections";
 import Account from "../pages/Account";
+import General from "../pages/General";
 
 export const privateRoutes = [
+  { path: "/uunit-project/general", element: <General /> },
   { path: "/uunit-project/account", element: <Account /> },
   { path: "/uunit-project/sections", element: <Sections /> },
   { path: "/uunit-project/events", element: <Events /> },
@@ -20,7 +22,7 @@ export const privateRoutes = [
   { path: "/uunit-project/about", element: <About /> },
   { path: "/uunit-project/posts", element: <Posts /> },
   { path: "/uunit-project/posts/:id", element: <PostIdPage /> },
-  { path: "/uunit-project/", element: <Posts /> },
+  { path: "/uunit-project/", element: <General /> },
   { path: "*", element: <Error /> },
 ];
 export const publicRoutes = [
